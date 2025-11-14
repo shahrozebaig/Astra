@@ -211,15 +211,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 **Acknowledgments**
-
-- 🤖 **OpenAI** for GPT API
-- ⚛️ **React** community
-- 🎨 **Framer Motion** for animations
-- 🌐 **Web Speech API** for voice capabilities
-
----
-
 ## 👨‍💻 **Contributing**
 
 Contributions are welcome! Please feel free to submit a Pull Request.
