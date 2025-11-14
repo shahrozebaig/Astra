@@ -42,56 +42,56 @@ Designed to be simple and fast, Astra gives you an easy hands-free way to intera
 
 ---
 
+##  **Architecture Diagram**
+
+
+
+
+
+
+<img width="1441" height="1458" alt="Astra" src="https://github.com/user-attachments/assets/152e3913-2f00-48b9-ab2b-9ee3eba34946" />
+
+
+
+
+
+---
+
 ## 📁 **Project Structure**
 
 ```
 Astra/
 ├── backend/
-│   ├── actions/
-│   │   ├── open.js            # Opens applications
-│   │   ├── play.js            # Plays media/songs
-│   │   ├── timer.js           # Timer functionality
-│   │   └── system.js          # System commands
+│   ├── actions/       
 │   ├── routes/
-│   │   ├── chat.js            # Chat API endpoint
-│   │   ├── intent.js          # Intent classification
-│   │   ├── parseAction.js     # Action parsing
-│   │   └── executeAction.js   # Action execution
+│   │   ├── chat.js            
+│   │   ├── intent.js          
+│   │   ├── parseAction.js     
+│   │   └── executeAction.js   
 │   ├── utils/
-│   │   ├── classifyIntent.js  # Intent detection logic
-│   │   ├── actionParser.js    # NLP action parser
-│   │   └── systemExec.js      # System command utils
-│   ├── .env                    # API keys & config
-│   ├── server.js               # Express server entry
+│   │   ├── classifyIntent.js  
+│   │   ├── actionParser.js   
+│   │   └── systemExec.js      
+│   ├── .env                    
+│   ├── server.js               
 │   ├── package.json
 │   └── package-lock.json
-│
 └── frontend/
     ├── public/
-    │   ├── index.html
-    │   ├── Astra.png           # Logo
-    │   ├── Robot.png           # Background image
-    │   ├── favicon.ico
-    │   ├── manifest.json
-    │   └── robots.txt
     ├── src/
-    │   ├── App.js              # Main UI component
-    │   ├── index.js            # React entry point
+    │   ├── App.js              
+    │   ├── index.js            
     │   ├── api/
-    │   │   ├── apiClient.js    # API client setup
-    │   │   ├── chat.js         # Chat API calls
-    │   │   ├── intent.js       # Intent API calls
-    │   │   ├── parseAction.js  # Parse action calls
-    │   │   └── executeAction.js # Execute action calls
-    │   ├── components/
-    │   │   ├── TypingDots.js   # Animated typing indicator
-    │   │   └── FloatingHeader.js # Animated header
+    │   │   ├── apiClient.js    
+    │   │   ├── chat.js         
+    │   │   ├── intent.js       
+    │   │   ├── parseAction.js 
+    │   │   └── executeAction.js 
     │   ├── utils/
-    │   │   └── speech.js       # Speech utilities
-    │   ├── styles/
-    │   │   └── globals.css     # Global styles
+    │   │   └── speech.js       
+    │   ├── styles/   
     │   └── assets/
-    │       └── beepSounds.js   # Audio feedback
+    │       └── beepSounds.js   
     ├── package.json
     ├── package-lock.json
     └── README.md
@@ -202,24 +202,6 @@ Ask Astra anything like a conversational AI:
    - **Command** → Parses action and executes system operation  
 4. **Text-to-Speech** – Astra speaks the response  
 5. **Visual Feedback** – UI animations, logs, and status updates  
-
----
-
-## 📄 **License**
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 👨‍💻 **Contributing**
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ---
 
