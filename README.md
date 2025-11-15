@@ -57,6 +57,23 @@ Designed to be simple and fast, Astra gives you an easy hands-free way to intera
 
 ---
 
+## 🎥 Project Video
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/6304dce3-94e4-4f4f-b7f7-5dcb3f417b20
+
+
+
+
+
+
+
+---
 ## 📁 **Project Structure**
 
 ```
